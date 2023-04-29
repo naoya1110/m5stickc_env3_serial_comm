@@ -1,1 +1,3 @@
 # m5stickc_env3_serial_comm
+
+M5StickCでENVIIIユニットのデータを読みシリアル通信で送信するプログラム
