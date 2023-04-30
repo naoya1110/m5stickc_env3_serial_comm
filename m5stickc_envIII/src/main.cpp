@@ -45,6 +45,6 @@ void loop() {
     M5.lcd.fillRect(0, 20, 100, 60, BLACK);  // Fill the screen with black
     M5.lcd.setCursor(0, 20);
     M5.Lcd.printf("Temp: %2.1f  \r\nHumi: %2.0f%%  \r\nPressure:%2.0fPa\r\n", tmp, hum, pressure);
-    Serial.printf("Temp:%2.1fC,  Humi:%2.0f%%,  Pres:%2.0fPa\r\n", tmp, hum, pressure);
+    Serial.printf("Temp:%2.1f,  Humi:%2.0f%,  Pres:%2.0f\r\n", tmp, hum, pressure);
     delay(1000);
 }
